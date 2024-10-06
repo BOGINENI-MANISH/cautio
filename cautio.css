@@ -1,127 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
-
-$white: #ffffff;
-$black: #000000;
-$primary1: #00bbf0;
-$primary2: #00204a;
-$textCol: #1f1f1f;
-
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxk.ttf) format('truetype');
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  color: $textCol;
-  background-color: $white;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: $primary2;
-  color: $white;
-  text-align: center;
-  padding: 20px;
-}
-
-header h1 {
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.8rem;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 40px;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');
 }
 
-.feature-box {
-  background-color: $white;
-  width: 300px;
-  margin: 15px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  text-align: center;
-  transition: transform 0.3s;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
 }
 
-.feature-box:hover {
-  transform: translateY(-10px);
-}
-
-.feature-box h3 {
-  color: $primary2;
-  margin-bottom: 10px;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
   font-weight: 600;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');
 }
 
-.feature-box i {
-  font-size: 40px;
-  color: $primary1;
-  margin-bottom: 10px;
-}
-
-.feature-box p {
-  color: $textCol;
-  font-size: 0.95rem;
-}
-
-footer {
-  background-color: $primary2;
-  color: $white;
-  text-align: center;
-  padding: 15px 0;
-  width: 100%;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  .container {
-    padding: 20px;
-  }
-
-  .feature-box {
-    width: 100%;
-    margin: 10px 0;
-  }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .feature-box {
-    padding: 15px;
-    margin: 5px 0;
-  }
-
-  .feature-box h3 {
-    font-size: 1.2rem;
-  }
-
-  .feature-box i {
-    font-size: 35px;
-  }
-
-  .feature-box p {
-    font-size: 0.85rem;
-  }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');
 }
